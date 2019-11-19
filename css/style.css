@@ -1,0 +1,106 @@
+body{
+			color:#070707;
+			font-family:sans-serif;
+		}
+    /*
+		a:link
+		{
+			text-decoration:none;
+			color:white;
+      background-color:#0B9444;
+		}
+		a:hover
+        {
+            color:white;
+            border-color:#F44336;
+            background-color:#0B9444;
+        }
+        a:active
+        {
+            color:white;
+            border-color:#F44336;
+            background-color:#0B9444;
+        }
+        a:visited
+        {
+            color:white;
+            border-color:#F44336;
+            background-color:transparent;
+        } 
+        */
+
+        @font-face {
+			font-family:Messenger; 
+			src: url('Messenger.ttf');
+		}
+		@font-face {
+			font-family:Sugar; 
+			src: url('Sugar Death 2 Italic.ttf');
+		}
+		input[type=text], input[type=password],input[type=date] {
+            padding-top: 14px;
+            padding-bottom:14px;
+            padding-right:36px;
+            padding-left:12px;  
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius:5px;
+        }   
+        button {
+            background-color: #F44336;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            border-radius:4px;
+        }
+        button:hover
+		{
+			border: 1px solid #0B9444;
+            color: #0B9444;
+	        background: transparent;
+		}
+        .check{
+        	margin-right:70px;
+        }
+        /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 100px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
